@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Design | Sankar</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- website icon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6164/6164124.png">
+</head>
+<body>
+
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="#" class="logo">Sankar's <span>Portfolio</span></a>
+
+        <!-- Menu And Toggle Button -->
+        <div id="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="navbar">
+            <i class='bx bxs-moon' id="theme-btn"></i>
+            <a href="#home" class="active" style="--i:1;">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#education" style="--i:3;">Education</a>
+            <a href="#skills" style="--i:4;">Skills</a>
+            <a href="#services" style="--i:5;">Services</a>
+            <a href="#portfolio" style="--i:6;">Project</a>
+            <a href="#contact" style="--i:7;">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Sankar Nayak</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm pursuing my B.Tech degree from Dr. B.C. Roy Engineering College. Currently I am studing in 3rd year of Computer Science And Design Department.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <!-- <a href="#"><i class='bx bxs-moon' id="theme-btn"></i></a> -->
+            </div>
+            <!-- <a href="#" class="btn">Download CV</a> -->
+            <div class="download-btn">
+                <a href="" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"><i class='bx bx-download'></i></span>
+                </a>
+            </div>
+            <div class="home-scroll">
+                <a href="#about">
+                    <span class="scroll-mouse"><i class='bx bx-mouse'></i></span>
+                    <span class="btn-text">Scroll Down</span>
+                    <span class="scroll-arrow"><i class='bx bx-down-arrow-alt'></i></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="WhatsApp Image 2023-04-30 at 20.07.18.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="WhatsApp Image 2023-04-30 at 20.08.00.jpg" alt="">
+            <span class="spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim natus quos voluptatem repellendus ut tempore corrupti in perspiciatis, doloribus eaque. Soluta sunt maxime quis praesentium dolor, delectus voluptates fugiat dicta architecto quae ut incidunt velit similique blanditiis beatae molestiae dolorem vitae placeat omnis numquam itaque. In perferendis alias debitis voluptatum ex delectus dicta quod, eum ratione eos, fugit aut soluta eligendi iusto.</p>
+            <a href="#" class="btn">Read More</a>
+            <div class="about-info">
+                <div>
+                    <span class="info-title">04+</span>
+                    <span class="info-name">Years<br>Experience</span>
+                </div>
+                <div>
+                    <span class="info-title">20+</span>
+                    <span class="info-name">Completed<br>Project</span>
+                </div>
+                <div>
+                    <span class="info-title">02+</span>
+                    <span class="info-name">Comapanies<br>Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION DESIGN -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">
+                    <i class="uil uil-graduation-cap"></i>
+                    Education
+                    <i id="education_toggle1" class='bx bx-chevron-down'></i>
+                </h3>
+                <div id="education_toggle1_body">
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i> 2017-2018</div>
+                                <h3>Master Degree - University</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum magnam debitis vel animi tempore sequi facere libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i> 2018-2019</div>
+                                <h3>Master Degree - University</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum magnam debitis vel animi tempore sequi facere libero.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i> 2019-2020</div>
+                                <h3>Master Degree - University</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum magnam debitis vel animi tempore sequi facere libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">
+                    <i class="uil uil-briefcase-alt"></i>
+                    Experience
+                    <i id="education_toggle2" class='bx bx-chevron-down'></i>
+                </h3>
+                <div id="education_toggle2_body">
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i> 2017-2018</div>
+                                <h3>Web Developer - Company</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum magnam debitis vel animi tempore sequi facere libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i> 2018-2019</div>
+                                <h3>Web Developer - Company</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum magnam debitis vel animi tempore sequi facere libero.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i> 2019-2020</div>
+                                <h3>Web Developer - Company</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum magnam debitis vel animi tempore sequi facere libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION DESIGN -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <i class='bx bxl-html5' ></i>
+                            <h3>HTML <span>92%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class='bx bxl-css3' ></i>
+                            <h3>CSS <span>88%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class='bx bxl-javascript' ></i>
+                            <h3>JavaScript <span>77%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class='bx bxl-java' ></i>
+                            <h3>Java <span>81%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <i class='bx bxl-blender'></i>
+                            <h3>Blender Editing <span>72%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class='bx bx-code-alt'></i>
+                            <h3>Web Development <span>83%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class='bx bxl-adobe'></i>
+                            <h3>Adobe Editing <span>74%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class='bx bxs-paint'></i>
+                            <h3>Graphic Designing <span>76%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION DESIGN -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sit quo non nobis quae facere voluptate totam aut ullam maxime!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sit quo non nobis quae facere voluptate totam aut ullam maxime!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sit quo non nobis quae facere voluptate totam aut ullam maxime!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque praesentium adipisci.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque praesentium adipisci.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque praesentium adipisci.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Machine Learning</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque praesentium adipisci.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Machine Learning</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque praesentium adipisci.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Machine Learning</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque praesentium adipisci.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">    
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <a href="#" class="btn">Submit</a>
+        </form>
+    </section>
+
+    <!-- FOOTER SECTION DESIGN -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 By Sankar Nayak | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custon js -->
+    <script src="script.js"></script>
+</body>
+</html>
